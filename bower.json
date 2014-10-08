@@ -1,0 +1,19 @@
+{
+  "name" : "promise-user-media",
+  "version" : "1.0.0",
+  "description" : "Promisified access to getUserMedia & vendor prefixes.",
+  "main": "./promiseUserMedia.js",
+  "dependencies": {},
+  "homepage" : "http://getuser.media",
+  "keywords": [
+    "webrc",
+    "getusermedia",
+    "promise"
+  ],
+  "author" : {
+      "name" : "Jan Lelis",
+      "email" : "mail@janlelis.de",
+      "url" : "http://janlelis.com"
+  },
+  "license": "MIT"
+}

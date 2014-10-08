@@ -1,0 +1,29 @@
+{
+  "name": "promise-user-media",
+  "version": "1.0.0",
+  "description": "Promisified access to getUserMedia & vendor prefixes.",
+  "main": "promiseUserMedia.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^5.11.2"
+  },
+  "scripts": {
+    "build": "browserify -s promiseUserMedia -e ./ > promiseUserMedia.bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/janlelis/promiseUserMedia.js.git"
+  },
+  "homepage": "http://getuser.media",
+  "keywords": [
+    "webrtc",
+    "getusermedia",
+    "promise"
+  ],
+  "author": {
+    "name": "Jan Lelis",
+    "email": "mail@janlelis.de",
+    "url": "http://janlelis.com"
+  },
+  "license": "MIT"
+}
