@@ -1,0 +1,29 @@
+<html>
+<head>
+  <script src="promiseUserMedia.js"></script>
+  <script>
+promiseUserMedia({
+  video: true,
+  audio: true,
+}).then(function(localStream){
+  document.querySelector('#gum').src = window.URL.createObjectURL(localStream);
+}).catch(function(error){
+  alert('getUserMedia: ' + error.name + "\n" + error.message);
+});
+  </script>
+  <style>
+#gum {
+  background: #444;
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+}
+  </style>
+</head>
+<body>
+  <video id="gum" autoplay></video>
+</body>
+</html>
