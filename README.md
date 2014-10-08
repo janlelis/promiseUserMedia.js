@@ -1,11 +1,11 @@
-# promiseUserMedia
+# promiseUserMedia.js
 
 Promisified access to getUserMedia & vendor prefixes.
 
 ### Install
 
 Include the promiseUserMedia.js file and you will get a `promiseUserMedia` global. You can
-fetch the library from bower (*promiseUserMedia*) or use npm (*promise-user-media*) & browserify.
+fetch the library from bower (**promise-user-media**) or use npm (**promise-user-media**) & browserify.
 
 ### Usage
 
@@ -31,5 +31,5 @@ promiseUserMedia({
 
 ### License
 
-MIT. Copyright (c) 2014 [Jan Lelis](https://twitter.com/janlelis).
+MIT. Copyright (c) 2014 [Jan Lelis.](https://twitter.com/janlelis)
 
